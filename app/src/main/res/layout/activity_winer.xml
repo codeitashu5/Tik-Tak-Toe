@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Winer">
+    <TextView
+        android:id="@+id/win1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:textColor="@color/teal_700"
+        android:layout_margin="10dp"
+       android:text="hewwo"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        />
+    <TextView
+        android:id="@+id/win2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/teal_700"
+       android:text="asldkfhklhasd"
+        android:fontFamily="casual"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="sldkfhasdkldkhalkd"
+        android:textColor="@color/teal_700"
+
+        android:textSize="32sp" />
+</LinearLayout>
